@@ -1,11 +1,13 @@
 import React from 'react'
 import Product from './Product/Product'
+import Hero from './Hero/Hero'
+import Navar from './Navbar/Navbar'
 class App extends React.Component {
     render() {
         return <div>
-            <h1>App Component</h1>
+            <Navar />
             <hr />
-            <Product />
+            <Hero />
         </div>
     }
 }
