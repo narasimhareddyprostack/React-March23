@@ -1,15 +1,10 @@
-import React from 'react'
-import Product from './Product/Product'
-import Hero from './Hero/Hero'
-import Navar from './Navbar/Navbar'
-class App extends React.Component {
-    render() {
-        return <div>
-            <Navar />
-            <hr />
-            <Hero />
-        </div>
-    }
+import CompA from './PropsEx/CompA'
+import User from './PropsEx2/User'
+let App = () => {
+    return <div>
+        <h1>App component</h1>
+        <hr />
+        <User />
+    </div>
 }
-
 export default App
