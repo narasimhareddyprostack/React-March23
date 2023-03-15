@@ -1,12 +1,14 @@
 import React from 'react'
-import Message from './StateEx/Message'
-class App extends React.Component {
-    render() {
-        return <div>
+import CompA from './PropsDrilling/CompA'
+import Product from './Product/Product'
+const App = () => {
+    return (
+        <div>
             <h1>App Component</h1>
             <hr />
-            <Message />
+            <Product />
         </div>
-    }
+    )
 }
+
 export default App
