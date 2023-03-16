@@ -1,14 +1,14 @@
 import React from 'react'
-import Counter from './Counter/Counter'
-import Message from './Message/Message'
+import CompA from './PropsDrilling/CompA'
+import Product from './Product/Product'
+
 const App = () => {
     return (
         <div>
             <h1>App Component</h1>
-
             <hr />
-            <Message />
-        </div >
+            <Product />
+        </div>
     )
 }
 
