@@ -1,20 +1,27 @@
 import React, { Component } from 'react'
 
 class Message extends Component {
-    state = { message: "Hello" }
-    updateHandler = (value) => {
-        this.setState({ message: value })
-        //this.setState({ message: "Good Morning" })
+
+    constructor(props) {
+        super(props)
+        console.log("First Const")
+        this.state = { msg: "Hello" }
+    }
+    gmHandler = () => {
+        console.log("if user clicks - ")
+        this.setState({ msg: "Good Morning" })
+    }
+    componentDidMount() {
+        console.log("third - life cycle method -automataicallly")
     }
     render() {
+        console.log("second render method")
         return (
             <div>
                 <pre>{JSON.stringify(this.state)}</pre>
-                <h3>{this.state.message}</h3>
-                <button onClick={this.updateHandler.bind(this, "Good Morning")}>GM</button>
-                <button onClick={this.updateHandler.bind(this, "Good Afternoon")}>GA</button>
-                <button onClick={this.updateHandler.bind(this, "Good Evening")}>GE</button>
-                <button onClick={this.updateHandler.bind(this, "Good Night Sweeth Dreems")}>GN</button>
+                <h2>Message:{this.state.msg}</h2>
+                <button onClick={this.gmHandler}>GM</button>
+
             </div>
         )
     }

@@ -1,0 +1,22 @@
+let employees = [{ "id": 1, "name": "Niel", "email": "ndennitts0@paginegialle.it", "gender": "Bigender" },
+{ "id": 2, "name": "Chris", "email": "cumney1@boston.com", "gender": "Male" },
+{ "id": 3, "name": "Babette", "email": "bmews2@fastcompany.com", "gender": "Female" },
+{ "id": 4, "name": "Joli", "email": "jboullin3@discovery.com", "gender": "Female" },
+{ "id": 5, "name": "Vladimir", "email": "vatherley4@clickbank.net", "gender": "Male" },
+{ "id": 6, "name": "Ambrosio", "email": "astraker5@twitter.com", "gender": "Genderfluid" },
+{ "id": 7, "name": "Raine", "email": "rkupke6@seesaa.net", "gender": "Female" },
+{ "id": 8, "name": "Donal", "email": "dmcewen7@jimdo.com", "gender": "Male" },
+{ "id": 9, "name": "Dalila", "email": "ddanilyak8@weibo.com", "gender": "Female" },
+{ "id": 10, "name": "Muriel", "email": "mtuxill9@nationalgeographic.com", "gender": "Female" },
+{ "id": 11, "name": "Vanya", "email": "vshiebera@goo.gl", "gender": "Male" },
+{ "id": 12, "name": "Carlye", "email": "cbewsyb@dyndns.org", "gender": "Non-binary" },
+{ "id": 13, "name": "Charyl", "email": "ccoulstonc@twitpic.com", "gender": "Female" },
+{ "id": 14, "name": "Ahmad", "email": "astiggerd@umn.edu", "gender": "Male" },
+{ "id": 15, "name": "Nollie", "email": "ncazee@is.gd", "gender": "Male" },
+{ "id": 16, "name": "Ladonna", "email": "labdonf@drupal.org", "gender": "Female" },
+{ "id": 17, "name": "Marybeth", "email": "mmatting@tripod.com", "gender": "Genderfluid" },
+{ "id": 18, "name": "Minor", "email": "mbaylessh@biglobe.ne.jp", "gender": "Male" },
+{ "id": 19, "name": "Orton", "email": "ochawneri@xrea.com", "gender": "Male" },
+{ "id": 20, "name": "Milzie", "email": "mhanniganej@patch.com", "gender": "Genderqueer" }]
+
+export default employees
