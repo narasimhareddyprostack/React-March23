@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
 
 class UserList extends Component {
+
+  sel_User = (user) => {
+    this.props.sel_User_Method(user)
+  }
   render() {
     return <div className="container">
       <h3>User List</h3>
       <div className="row">
-        <pre>{JSON.stringify(this.props)}</pre>
+        {/*   <pre>{JSON.stringify(this.props)}</pre> */}
         <div className="col">
           <table className='table table-hover'>
             <thead className='bg-primary text-white'>
@@ -19,7 +23,7 @@ class UserList extends Component {
             <tbody>
               {
                 this.props.users.map((user) => {
-                  return <tr key={user.id}>
+                  return <tr key={user.id} onClick={this.sel_User.bind(this, user)}>
                     <td>{user.id}</td>
                     <td>{user.firstName}</td>
                     <td>{user.lastName}</td>

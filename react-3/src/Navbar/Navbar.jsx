@@ -8,6 +8,8 @@ class Navbar extends Component {
                 <ul className='navbar-nav'>
                     <li className='nav-list'><Link className='nav-link' to="index">Home</Link></li>
                     <li className='nav-list'><Link className='nav-link' to="user">User</Link></li>
+                    <li className='nav-list'><Link className='nav-link' to="method">Methodas Props</Link></li>
+                    <li className='nav-list'><Link className='nav-link' to="useStateEx">Message - useState</Link></li>
                 </ul>
             </div>
         </nav>
