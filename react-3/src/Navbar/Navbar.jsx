@@ -10,6 +10,8 @@ class Navbar extends Component {
                     <li className='nav-list'><Link className='nav-link' to="user">User</Link></li>
                     <li className='nav-list'><Link className='nav-link' to="method">Methodas Props</Link></li>
                     <li className='nav-list'><Link className='nav-link' to="useStateEx">Message - useState</Link></li>
+                    <li className='nav-list'><Link className='nav-link' to="cartEx">Cart - useState</Link></li>
+                    <li className='nav-list'><Link className='nav-link' to="digital">Digital Comp </Link></li>
                 </ul>
             </div>
         </nav>

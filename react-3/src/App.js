@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import UserApp from './UserApp/UserApp'
 import CompA from './MethodAsPropEx/CompA'
 import Message from './HooksEx/Message'
+import Cart from './Cart/Cart'
+import Digital from './LifeCycle/Digital'
 class App extends Component {
     render() {
         return (
@@ -14,6 +16,8 @@ class App extends Component {
                         <Route path="/user" element={<UserApp />} />
                         <Route path="/method" element={<CompA />} />
                         <Route path="/useStateEx" element={<Message />} />
+                        <Route path="/cartEx" element={<Cart />} />
+                        <Route path="/digital" element={<Digital />} />
                     </Routes>
                 </Router>
             </div>
