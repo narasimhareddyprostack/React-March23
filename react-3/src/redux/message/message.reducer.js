@@ -1,21 +1,17 @@
-import { GM, GN } from './message.action'
 let initialState = {
-    message: "Hello"
+    msg: "Hello,MR Rahul"
 }
 let messageReducer = (state = initialState, action) => {
+    console.log(action);
     switch (action.type) {
         case 'GM':
-            return {
-                message: "Good Morning"
-            }
+            return { msg: "Good Morining" }
         case 'GN':
-            return {
-                message: "Good Night"
-            }
+            return { msg: 'Good Night' }
         default:
             return state
     }
+
 }
-//what is reducer?
-//pure function takes two arguments ie state, action
-//based on action type reduce will update /create store.
+
+export { messageReducer }
