@@ -1,10 +1,9 @@
-import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { gmAction, gnAction } from '../redux/message/message.action';
-
+import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { gmAction, gnAction } from '../redux/message/message.action'
 const Message = () => {
     let message = useSelector((state) => {
-        return state;
+        return state
     })
     let dispatch = useDispatch()
     let gmHandler = () => {
@@ -17,10 +16,10 @@ const Message = () => {
         <div>
             <h1>Message Component</h1>
             <pre>{JSON.stringify(message)}</pre>
-            <button onClick={gmHandler}>gm</button>
-            <button onClick={gnHandler}>gn</button>
-
-        </div>
+            <h2>Value:{message.msg}</h2>
+            <button onClick={gmHandler}>GM</button>
+            <button onClick={gnHandler} > GN</button>
+        </div >
     )
 }
 

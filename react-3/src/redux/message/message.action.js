@@ -1,11 +1,10 @@
-//action types
-let GM = 'GM'
-let GN = 'GN'
+let GM = "GM"
+let GN = "GN"
 let gmAction = () => {
-    return { type: GM, bf: 'idly' }
-}
-let gnAction = () => {
-    return { type: GN, dinner: 'biryani' }
+    return { type: GM }
 }
 
+let gnAction = () => {
+    return { type: GN }
+}
 export { gmAction, gnAction, GM, GN }
