@@ -1,16 +1,13 @@
-import React from 'react';
-import Message from './Message/Message';
-import { Provider } from 'react-redux';
-import { store } from './redux/store';
-import Counter from './Counter/Counter'
-const App = () => {
-    return <div>
-        <Provider store={store}>
-            <h1> App Component</h1>
-            <Counter />
-        </Provider>
-    </div>
+import React from 'react'
+import User from './User/User'
 
+const App = () => {
+    return (
+        <div>
+            <h1>App Compononet</h1>
+            <User />
+        </div>
+    )
 }
 
 export default App
