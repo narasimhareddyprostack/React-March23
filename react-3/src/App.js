@@ -1,11 +1,14 @@
 import React from 'react'
 import User from './User/User'
-
+import { Provider } from 'react-redux'
+import { store } from './redux/store'
 const App = () => {
     return (
         <div>
-            <h1>App Compononet</h1>
-            <User />
+            <Provider store={store}>
+                <h1>App Compononet</h1>
+                <User />
+            </Provider>
         </div>
     )
 }
